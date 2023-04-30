@@ -1,0 +1,90 @@
+body {
+  position: relative;
+  height: 100vh;
+  font-family: "Arimo", sans-serif;
+  font-family: "Chivo Mono", monospace;
+  font-family: "Roboto", sans-serif;
+}
+
+.deleteElement {
+  display: none;
+}
+/**clock**/
+.clock {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%);
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+/**welcome**/
+.welcome {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.welcome div {
+  font-size: 20px;
+  width: 700px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.welcome input {
+  border: none;
+  width: 200px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.welcome input:focus {
+  outline: none;
+}
+
+/* background  */
+
+body img {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* ToDO */
+
+.todo-container {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  background-color: antiquewhite;
+  padding: 30px;
+  width: 200px;
+  height: auto;
+  border-radius: 30px;
+}
+
+/* weather */
+#weather-container {
+  position: absolute;
+  right: 80px;
+  top: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#weather-container span {
+  margin: 5px 0px;
+}
