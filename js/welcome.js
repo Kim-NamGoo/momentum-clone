@@ -1,7 +1,9 @@
 //welcome
 const welcomeText = document.querySelector(".welcome div");
 const welcomeInput = document.querySelector(".welcome input");
-welcomeInput.addEventListener("input", () => {
+
+welcomeInput.addEventListener("input", (event) => {
+  event.preventDefault();
   localStorage.setItem("username", welcomeInput.value);
 });
 
